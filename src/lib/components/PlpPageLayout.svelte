@@ -10,7 +10,7 @@
         
         <div class="grid gap-6 grid-cols-2 lg:grid-cols-3">
             {#each mockProducts as product}
-                <ProductCard {...product} title={product.title} variants={product.variants} />
+                <ProductCard {...product} />
             {/each}          
         </div>           
     </div>
