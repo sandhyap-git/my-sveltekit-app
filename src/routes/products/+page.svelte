@@ -1,8 +1,12 @@
 <script>
-	import ProductCard from "./ProductCard.svelte";
-    import { mockProducts } from "../mockProducts";
-    console.log(mockProducts)
+	import ProductCard from "$lib/components/ProductCard.svelte";
+	import { mockProducts } from "$lib/mockProducts";
+
+    export let data;
+    console.log("Hi");
+    console.log(data);
 </script>
+
 <main class="grid gap-6 md:[grid-template-column:250px_auto]">
     <div class="border p-6">Filters</div>
     <div class="border p-6">

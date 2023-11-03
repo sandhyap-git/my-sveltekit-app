@@ -18,7 +18,7 @@ export function addToCart(title, variant) {
         return state;
     });
 
-     cartOpen.set(true);
+     cartOpen.set(false);
 }
 
 export const cartItems = readonly(items);
