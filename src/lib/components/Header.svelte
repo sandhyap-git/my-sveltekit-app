@@ -13,7 +13,7 @@
         <a href="/products">Products</a>
     </div>
     <button class="relative" on:click={() => $cartOpen = true}>
-        <iconify-icon class="relative text-30" icon="mdi:cart-outline"></iconify-icon>
+        <iconify-icon class="text-30" icon="mdi:cart-outline"></iconify-icon>
         {#if $cartCount }
             <div class="absolute -top-2 -right-1 w-5 h-5 rounded-full bg-blue">{$cartCount}</div>
         {/if}
