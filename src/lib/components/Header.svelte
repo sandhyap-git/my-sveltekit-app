@@ -11,6 +11,7 @@
     <div class="flex gap-6">
         <a href="/my-account">My Account</a>
         <a href="/products">Products</a>
+        <a href="/fetch/1">Blog</a>
     </div>
     <button class="relative" on:click={() => $cartOpen = true}>
         <iconify-icon class="text-30" icon="mdi:cart-outline"></iconify-icon>
